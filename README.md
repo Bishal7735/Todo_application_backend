@@ -1,2 +1,2 @@
-# Todo_application_backend
-Creating a To-Do app
+# todo-app-server
+This is a backend server for todo application.
