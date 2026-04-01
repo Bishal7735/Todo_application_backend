@@ -1,29 +1,46 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('./db');
-const UserTask = require('./userTask');
-
-const Task = sequelize.define('task', {
+const User = require('./user');
+const Task = require('./task');
+const UserTask = sequelize.define('user_task', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
-    external_id: DataTypes.STRING,
-    name: DataTypes.STRING,
-    description: DataTypes.STRING,
+    user_id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+            model: 'user',
+            key: 'id'
+        }
+    },
+    task_id: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        references: {
+            model: 'task',
+            key: 'id',
+        }
+    },
     status: DataTypes.STRING,
-    createdAt: DataTypes.TIME,
-    updatedAt: DataTypes.TIME,
-    createdBy: DataTypes.INTEGER,
-    updatedBy: DataTypes.INTEGER,
+    started_at: DataTypes.TIME,
+    ended_at: DataTypes.TIME,
+    priority: DataTypes.STRING
 }, {
-    tableName: 'task',
+    tableName: 'user_task',
     timestamps: true
 });
 
-Task.hasMany(UserTask, {
-    foreignKey: 'task_id',
-    as: 'tasks'
-});
+// UserTask.belongsTo(User, {
+//     foreignKey: 'user_id',
+//     as: 'user'
+// });
 
-module.exports = Task;
+// UserTask.belongsTo(Task, {
+//     foreignKey: 'task_id',
+//     as: 'task'
+// });
+
+module.exports = UserTask;
