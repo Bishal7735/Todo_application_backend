@@ -1,7 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 const router = express.Router();
 
-// Ensure these are exported correctly in your authController.ts
 import { Login, Register } from '../controller/authController';
 
 router.post('/login', function (req: Request, res: Response) {

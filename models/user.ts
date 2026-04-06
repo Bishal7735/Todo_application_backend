@@ -12,6 +12,7 @@ export const User = sequelize.define('user', {
         unique: true
     },
     first_name: DataTypes.STRING,
+    middle_name: DataTypes.STRING,
     last_name: DataTypes.STRING,
     email: DataTypes.STRING,
     mob_no: DataTypes.BIGINT,

@@ -4,7 +4,6 @@ const router = express.Router();
 import users from './users';
 import authRouter from './auth';
 
-// Changed from usersRouter to users to match the import above
 router.use('/users', users);
 router.use('/auth', authRouter);
 

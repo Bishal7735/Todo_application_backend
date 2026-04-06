@@ -1,5 +1,4 @@
 import express, { Application } from "express";
-// Corrected: Import the default export without curly braces
 import indexRouter from "./route/index";
 import { sequelize } from "./models";
 
@@ -19,8 +18,7 @@ const startServer = async (): Promise<void> => {
         await sequelize.authenticate();
         console.log("MySQL connection established successfully.");
 
-        // Note: force: true will drop your tables every time the server restarts.
-        // Use { alter: true } in development if you want to keep your data.
+
         await sequelize.sync({ force: true });
 
         app.listen(port, () => {

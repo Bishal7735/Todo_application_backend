@@ -11,5 +11,5 @@ router.get('/hello', function (req: Request, res: Response, next: NextFunction) 
   res.send('hello from user route');
 });
 
-// Corrected from module.exports = router;
+
 export default router;
