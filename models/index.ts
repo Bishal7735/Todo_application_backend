@@ -1,9 +1,7 @@
-const sequelize = require('./db');
-
-// Import all models
-const User = require('./user');
-const Task = require('./task');
-const UserTask = require('./user_task');
+import {sequelize} from './db'
+import { User } from './user';
+import {Task} from './task';
+import {UserTask} from './user_task';
 
 // Associations
 // User -> UserTask
@@ -33,7 +31,7 @@ UserTask.belongsTo(Task, {
 
 // Export everything
 
-module.exports = {
+export {
     sequelize,
     User,
     Task,

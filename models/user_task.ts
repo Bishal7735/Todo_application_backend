@@ -1,8 +1,9 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('./db');
-const User = require('./user');
-const Task = require('./task');
-const UserTask = sequelize.define('user_task', {
+// const { DataTypes } = require('sequelize');
+import { DataTypes } from "sequelize";
+import {sequelize} from './db'
+// import { User } from "./user";
+// import { Task } from "./task";
+export const UserTask = sequelize.define('user_task', {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true,
@@ -32,15 +33,3 @@ const UserTask = sequelize.define('user_task', {
     tableName: 'user_task',
     timestamps: true
 });
-
-UserTask.belongsTo(User, {
-    foreignKey: 'user_id',
-    as: 'user'
-});
-
-UserTask.belongsTo(Task, {
-    foreignKey: 'task_id',
-    as: 'task'
-});
-
-module.exports = UserTask;
