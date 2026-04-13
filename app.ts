@@ -14,19 +14,18 @@ app.use("/", indexRouter);
 
 // Database connection
 const startServer = async (): Promise<void> => {
-    try {
-        await sequelize.authenticate();
-        console.log("MySQL connection established successfully.");
+  try {
+    await sequelize.authenticate();
+    console.log("MySQL connection established successfully.");
 
+    await sequelize.sync({ force: true });
 
-        await sequelize.sync({ force: true });
-
-        app.listen(port, () => {
-            console.log(`Server listening on port ${port}`);
-        });
-    } catch (error) {
-        console.error("Unable to connect to database:", error);
-    }
+    app.listen(port, () => {
+      console.log(`Server listening on port ${port}`);
+    });
+  } catch (error) {
+    console.error("Unable to connect to database:", error);
+  }
 };
 
 startServer();
