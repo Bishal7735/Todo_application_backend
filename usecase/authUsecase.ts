@@ -1,6 +1,10 @@
-import { HashRequest, RegistrationRequest } from "../domain/authDomain";
-import { EmailCheck, generateRandomString, RegisterRepository } from "../Repository/authRepository";
+import { HashRequest, LoginRequest, RegistrationRequest } from "../domain/authDomain";
+import { EmailCheck, LoginRepository, RegisterRepository } from "../Repository/authRepository";
 import bcrypt from "bcrypt";
+
+export async function LoginUsecase(request: LoginRequest) {
+    return LoginRepository(request);
+}
 
 export async function RegisterUsecase(request: RegistrationRequest) {
     console.log("Inside RegisterUsecase");
@@ -19,7 +23,6 @@ export async function RegisterUsecase(request: RegistrationRequest) {
         request.password = hashedPassword;
         RegisterRepository(request)
     }
-
 }
 
 export async function hashPassword(req: HashRequest): Promise<string> {
