@@ -1,19 +1,19 @@
 import { Request, Response } from 'express';
-import { RegistrationRequest, LoginRequest } from '../domain/authDomain'
-import { RegisterUsecase, LoginUsecase } from "../usecase/authUsecase"
+import { LoginRequest, RegistrationRequest } from '../domain/authDomain'
+import { LoginUsecase, RegisterUsecase } from "../usecase/authUsecase"
 
-export async function Login(req: Request, res: Response) {
+export async function Login(req, res) {
     console.log('Inside login controller');
-    console.log('Got the request body for the api call', req.body);
-    console.log('Got the request header for the api call', req.headers['content-type']);
-
     let request = {} as LoginRequest;
     request.email = req.body.email;
     request.password = req.body.password;
-    
+    console.log("after mapping to the user request", request);
     let usecaseResponse = await LoginUsecase(request);
-
-    res.send(req.body);
+    if (usecaseResponse == false) {
+        res.send("Incorrect email or password");
+    } else {
+        res.send("Login successful");
+    }
 }
 
 export async function Register(req: Request, res: Response) {
