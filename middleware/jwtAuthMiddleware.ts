@@ -26,7 +26,7 @@ export const jwtAuthMiddleware = (req: Request, res: Response, next: NextFunctio
     const token = authHeader.split(" ")[1];
     logger.info("Token: ", token)
     logger.info("JWT SECRET: ", JWT_SECRET)
-    const decoded = jwt.verify(token, JWT_SECRET);
+    const decoded = jwt.verify(token, JWT_SECRET as string) as any;
 
     // Map JWT payload into headers
     Object.entries(HEADER_MAPPINGS).forEach(([payloadKey, headerName]) => {

@@ -21,7 +21,7 @@ export async function RegisterUsecase(request: RegistrationRequest) {
         let hashedPassword = await hashPassword(hashreq);
         console.log("Hashed value is ", hashedPassword);
         request.password = hashedPassword;
-        RegisterRepository(request)
+        return await RegisterRepository(request);
     }
 }
 

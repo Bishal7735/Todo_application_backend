@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express, { Application } from "express";
 import indexRouter from "./route/index";
 import { sequelize } from "./models";

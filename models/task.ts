@@ -13,6 +13,8 @@ export const Task = sequelize.define('task', {
     external_id: DataTypes.STRING,
     name: DataTypes.STRING,
     description: DataTypes.STRING,
+    dueDate: DataTypes.DATE,
+    notes: DataTypes.STRING,
     status: DataTypes.STRING,
     createdAt: DataTypes.TIME,
     updatedAt: DataTypes.TIME,
