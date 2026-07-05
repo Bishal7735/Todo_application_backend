@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 import indexRouter from "./route/index";
 import { sequelize } from "./models";
+import {logger} from "./logger";
 
 const app: Application = express();
 const port: number = 3000;
@@ -17,6 +18,7 @@ const startServer = async (): Promise<void> => {
   try {
     await sequelize.authenticate();
     console.log("MySQL connection established successfully.");
+    logger.info("MySQL connection established successfully.");
 
     await sequelize.sync({ force: true });
 

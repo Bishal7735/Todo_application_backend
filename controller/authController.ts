@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { LoginRequest, RegistrationRequest } from '../domain/authDomain'
 import { LoginUsecase, RegisterUsecase } from "../usecase/authUsecase"
 
-export async function Login(req, res) {
+export async function Login(req: Request, res: Response) {
     console.log('Inside login controller');
     let request = {} as LoginRequest;
     request.email = req.body.email;
