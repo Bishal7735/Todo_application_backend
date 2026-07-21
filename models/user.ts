@@ -1,5 +1,6 @@
 import { DataTypes } from "sequelize";
-import { sequelize } from "./db";
+import {sequelize} from "./db";
+// const UserTask = require('./user_task');
 
 export const User = sequelize.define('user', {
     id: {
@@ -12,7 +13,6 @@ export const User = sequelize.define('user', {
         unique: true
     },
     first_name: DataTypes.STRING,
-    middle_name: DataTypes.STRING,
     last_name: DataTypes.STRING,
     email: DataTypes.STRING,
     mob_no: DataTypes.BIGINT,
@@ -24,4 +24,3 @@ export const User = sequelize.define('user', {
     tableName: 'user',
     timestamps: true
 });
-

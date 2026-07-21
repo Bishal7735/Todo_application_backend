@@ -1,7 +1,9 @@
-import {sequelize} from './db'
-import { User } from './user';
-import {Task} from './task';
-import {UserTask} from './user_task';
+import { sequelize } from "./db";
+
+// Import all models
+import {User}  from "./user";
+import {Task}  from "./task";
+import {UserTask} from "./user_task";
 
 // Associations
 // User -> UserTask
@@ -27,13 +29,4 @@ UserTask.belongsTo(Task, {
     foreignKey: 'task_id',
     as: 'task'
 });
-
-
-// Export everything
-
-export {
-    sequelize,
-    User,
-    Task,
-    UserTask
-};
+export { sequelize, User, Task, UserTask };

@@ -1,25 +1,31 @@
-import { createLogger, format, transports } from 'winston';
+import { createLogger, format, transports, Logger } from 'winston';
 
-const logger = createLogger({
-  level: process.env.LOG_LEVEL || 'debug',
-  format: format.combine(
-    format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
-    format.errors({ stack: true }),
-    format.splat(),
-    format.json()
-  ),
-  defaultMeta: { service: 'todo-application-backend' },
+const isProd = process.env.NODE_ENV === 'production';
+
+const logger: Logger = createLogger({
+  level: isProd ? 'info' : 'debug',
+
+  format: isProd
+    ? format.combine(
+      format.timestamp(),
+      format.errors({ stack: true }),
+      format.json()
+    )
+    : format.combine(
+      format.timestamp({ format: 'DD-MM-YYYY hh:mm A' }),
+      format.printf(({ level, message, timestamp, stack, ...meta }) => {
+        let log = `${timestamp} : ${level}: ${stack || message}`;
+        if (Object.keys(meta).length) {
+          log += ` ${JSON.stringify(meta)}`;
+        }
+
+        return log;
+      })
+    ),
+
   transports: [
-    new transports.Console({
-      format: format.combine(
-        format.colorize(),
-        format.simple()
-      )
-    }),
-    new transports.File({ filename: 'log/app.log' })
+    new transports.File({ filename: 'logs/app.log' })
   ]
 });
 
-// Support both default and named imports
-export { logger };
 export default logger;

@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import jwt from "jsonwebtoken";
+const jwt = require("jsonwebtoken");
 import logger from "../logger";
 
 const JWT_SECRET = process.env.ACCESSTOKENSECRET;
@@ -26,7 +26,7 @@ export const jwtAuthMiddleware = (req: Request, res: Response, next: NextFunctio
     const token = authHeader.split(" ")[1];
     logger.info("Token: ", token)
     logger.info("JWT SECRET: ", JWT_SECRET)
-    const decoded = jwt.verify(token, JWT_SECRET as string) as any;
+    const decoded = jwt.verify(token, JWT_SECRET);
 
     // Map JWT payload into headers
     Object.entries(HEADER_MAPPINGS).forEach(([payloadKey, headerName]) => {
@@ -44,5 +44,4 @@ export const jwtAuthMiddleware = (req: Request, res: Response, next: NextFunctio
     res.status(401).json({
       message: "Invalid or expired token",
     });
-  }
-};
+  } }

@@ -5,6 +5,7 @@ export interface RegistrationRequest {
     email: string;
     password: string;
 }
+
 export interface UserTableAttributes {
     id: number;
     external_id: string;
@@ -17,6 +18,7 @@ export interface UserTableAttributes {
     createdAt: Date;
     updatedAt: Date;
 }
+
 export interface LoginRequest {
     email: string;
     password: string;

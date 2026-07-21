@@ -6,3 +6,4 @@ export const sequelize: Sequelize = new Sequelize('task_manager', 'root', 'ROOT'
     port: 3306,
     logging: false
 });
+
