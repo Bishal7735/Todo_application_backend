@@ -2675,3 +2675,153 @@
 20-07-2026 02:16 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
 20-07-2026 02:16 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
 20-07-2026 02:16 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+21-07-2026 08:05 AM : info: Database connection & tables synchronized successfully.
+21-07-2026 08:05 AM : info: Server listening on port 4000
+21-07-2026 08:05 AM : debug: Getting all task successfully
+21-07-2026 08:05 AM : info: Got the task in controller :
+21-07-2026 08:05 AM : debug: Getting all task successfully
+21-07-2026 08:05 AM : info: Got the task in controller :
+21-07-2026 08:06 AM : info: Inside login controller
+21-07-2026 08:06 AM : debug: after mapping to the user request {"email":"bfggdvd@gmail.com","password":"fvdgdh"}
+21-07-2026 08:06 AM : info: Inside LoginRepository
+21-07-2026 08:06 AM : warn: Login failed: User not found for email bfggdvd@gmail.com
+21-07-2026 08:06 AM : info: Inside login controller
+21-07-2026 08:06 AM : debug: after mapping to the user request {"email":"bfggdvd@gmail.com","password":"fvdgdh"}
+21-07-2026 08:06 AM : info: Inside LoginRepository
+21-07-2026 08:06 AM : warn: Login failed: User not found for email bfggdvd@gmail.com
+21-07-2026 08:12 AM : info: Inside login controller
+21-07-2026 08:12 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:12 AM : info: Inside LoginRepository
+21-07-2026 08:12 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:12 AM : info: Inside login controller
+21-07-2026 08:12 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:12 AM : info: Inside LoginRepository
+21-07-2026 08:12 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:12 AM : info: Inside login controller
+21-07-2026 08:12 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:12 AM : info: Inside LoginRepository
+21-07-2026 08:12 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:12 AM : info: Inside login controller
+21-07-2026 08:12 AM : debug: after mapping to the user request {"email":"bishal@listify.app","password":"demo123456"}
+21-07-2026 08:12 AM : info: Inside LoginRepository
+21-07-2026 08:12 AM : warn: Login failed: User not found for email bishal@listify.app
+21-07-2026 08:12 AM : info: Inside Register controller
+21-07-2026 08:12 AM : debug: Got the request body for the api call
+21-07-2026 08:12 AM : debug: after mapping to the user request {"firstName":"Bishal","lastName":"Roy","mobNumber":"+919876543210","email":"bishal@listify.app","password":"demo123456"}
+21-07-2026 08:12 AM : info: Inside RegisterUsecase
+21-07-2026 08:12 AM : debug: User Created successfully: {"external_id":"tezpvvejge","first_name":"Bishal","last_name":"Roy","email":"bishal@listify.app","mob_no":"+919876543210","password":"$2b$10$IZV.475RhaJwOSoLHwZx/e8GNrn07kTM2N5jLMsL1NX/1rHyEzlOa","status":"Active"}
+21-07-2026 08:12 AM : debug: Getting all task successfully
+21-07-2026 08:12 AM : info: Got the task in controller :
+21-07-2026 08:12 AM : debug: Getting all task successfully
+21-07-2026 08:12 AM : info: Got the task in controller :
+21-07-2026 08:17 AM : info: Inside login controller
+21-07-2026 08:17 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:17 AM : info: Inside LoginRepository
+21-07-2026 08:17 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:17 AM : info: Inside login controller
+21-07-2026 08:17 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:17 AM : info: Inside LoginRepository
+21-07-2026 08:17 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:26 AM : info: Inside login controller
+21-07-2026 08:26 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:26 AM : info: Inside LoginRepository
+21-07-2026 08:26 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:26 AM : info: Inside login controller
+21-07-2026 08:26 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:26 AM : info: Inside LoginRepository
+21-07-2026 08:26 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:26 AM : info: Inside login controller
+21-07-2026 08:26 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:26 AM : info: Inside LoginRepository
+21-07-2026 08:26 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:26 AM : info: Inside login controller
+21-07-2026 08:26 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:26 AM : info: Inside LoginRepository
+21-07-2026 08:26 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:27 AM : info: Inside login controller
+21-07-2026 08:27 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:27 AM : info: Inside LoginRepository
+21-07-2026 08:27 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:27 AM : info: Inside login controller
+21-07-2026 08:27 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:27 AM : info: Inside LoginRepository
+21-07-2026 08:27 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:27 AM : info: Inside Register controller
+21-07-2026 08:27 AM : debug: Got the request body for the api call
+21-07-2026 08:27 AM : debug: after mapping to the user request {"firstName":"Bishal","lastName":"Roy","mobNumber":"7735225495","email":"bishal@gamil.com","password":"Bishal@321"}
+21-07-2026 08:27 AM : info: Inside RegisterUsecase
+21-07-2026 08:27 AM : debug: User Created successfully: {"external_id":"ggghmrstfw","first_name":"Bishal","last_name":"Roy","email":"bishal@gamil.com","mob_no":"7735225495","password":"$2b$10$az5dfiS9aKTuUxMgEOJs0eQiNbQfHmVX/AO/0DWlSkVAf9QkWo692","status":"Active"}
+21-07-2026 08:27 AM : debug: Getting all task successfully
+21-07-2026 08:27 AM : info: Got the task in controller :
+21-07-2026 08:27 AM : debug: Getting all task successfully
+21-07-2026 08:27 AM : info: Got the task in controller :
+21-07-2026 08:28 AM : info: Inside task create controller
+21-07-2026 08:28 AM : debug: after mapping to the task request {"userId":2,"name":"dfsdvsd","description":"svdsd","due_date":"2026-07-21","notes":"Development","priority":"high","status":"Active"}
+21-07-2026 08:28 AM : debug: Getting task details successfully {"dataValues":{"id":1,"external_id":"rpfrdouuad","name":"dfsdvsd","description":"svdsd","notes":"Development","category":"Development","due_date":"2026-07-21T00:00:00.000Z","status":"Active","priority":"high","createdBy":2,"updatedBy":null,"createdAt":"2026-07-21T02:58:24.713Z","updatedAt":"2026-07-21T02:58:24.714Z"},"_previousDataValues":{"id":1,"external_id":"rpfrdouuad","name":"dfsdvsd","description":"svdsd","notes":"Development","category":"Development","due_date":"2026-07-21T00:00:00.000Z","status":"Active","priority":"high","createdBy":2,"updatedBy":null,"createdAt":"2026-07-21T02:58:24.713Z","updatedAt":"2026-07-21T02:58:24.714Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:28 AM : debug: Task updated successfully {"name":"dfsdvsd","description":"svdsd","due_date":"2026-07-21T00:00:00.000Z","notes":"Development","status":"Completed","priority":"high","updatedBy":2}
+21-07-2026 08:28 AM : debug: Getting task details successfully {"dataValues":{"id":1,"external_id":"rpfrdouuad","name":"dfsdvsd","description":"svdsd","notes":"Development","category":"Development","due_date":"2026-07-21T00:00:00.000Z","status":"Completed","priority":"high","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T02:58:24.713Z","updatedAt":"2026-07-21T02:58:26.507Z"},"_previousDataValues":{"id":1,"external_id":"rpfrdouuad","name":"dfsdvsd","description":"svdsd","notes":"Development","category":"Development","due_date":"2026-07-21T00:00:00.000Z","status":"Completed","priority":"high","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T02:58:24.713Z","updatedAt":"2026-07-21T02:58:26.507Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:28 AM : debug: Task updated successfully {"name":"dfsdvsd","description":"svdsd","due_date":"2026-07-21T00:00:00.000Z","notes":"Development","status":"Active","priority":"high","updatedBy":2}
+21-07-2026 08:28 AM : debug: Deleting task with externalId 
+21-07-2026 08:35 AM : debug: Getting all task successfully
+21-07-2026 08:35 AM : info: Got the task in controller :
+21-07-2026 08:35 AM : debug: Getting all task successfully
+21-07-2026 08:35 AM : info: Got the task in controller :
+21-07-2026 08:36 AM : info: Inside task create controller
+21-07-2026 08:36 AM : debug: after mapping to the task request {"userId":2,"name":"sdvvsd","description":"sdgsd","due_date":"2026-07-20","notes":"Finance","priority":"urgent","status":"Active"}
+21-07-2026 08:36 AM : debug: Getting task details successfully {"dataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Finance","category":"Finance","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"urgent","createdBy":2,"updatedBy":null,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:03.080Z"},"_previousDataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Finance","category":"Finance","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"urgent","createdBy":2,"updatedBy":null,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:03.080Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:36 AM : debug: Task updated successfully {"name":"sdvvsd","description":"sdgsd","due_date":"2026-07-20T00:00:00.000Z","notes":"Finance","status":"Completed","priority":"urgent","updatedBy":2}
+21-07-2026 08:36 AM : debug: Getting task details successfully {"dataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Finance","category":"Finance","due_date":"2026-07-20T00:00:00.000Z","status":"Completed","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:06.237Z"},"_previousDataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Finance","category":"Finance","due_date":"2026-07-20T00:00:00.000Z","status":"Completed","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:06.237Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:36 AM : debug: Task updated successfully {"name":"sdvvsd","description":"sdgsd","due_date":"2026-07-20T00:00:00.000Z","notes":"Finance","status":"Active","priority":"urgent","updatedBy":2}
+21-07-2026 08:36 AM : debug: Getting task details successfully {"dataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Finance","category":"Finance","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:07.489Z"},"_previousDataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Finance","category":"Finance","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:07.489Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:36 AM : debug: Task updated successfully {"name":"sdvvsd","description":"sdgsd","due_date":"2026-07-20","notes":"Health","status":"Active","priority":"urgent","updatedBy":2}
+21-07-2026 08:36 AM : debug: Getting task details successfully {"dataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Health","category":"Health","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:15.914Z"},"_previousDataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Health","category":"Health","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:15.914Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:36 AM : debug: Task updated successfully {"name":"sdvvsd","description":"sdgsd","due_date":"2026-07-20T00:00:00.000Z","notes":"Health","status":"Completed","priority":"urgent","updatedBy":2}
+21-07-2026 08:36 AM : debug: Getting task details successfully {"dataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Health","category":"Health","due_date":"2026-07-20T00:00:00.000Z","status":"Completed","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:18.653Z"},"_previousDataValues":{"id":2,"external_id":"dkvmchvmyz","name":"sdvvsd","description":"sdgsd","notes":"Health","category":"Health","due_date":"2026-07-20T00:00:00.000Z","status":"Completed","priority":"urgent","createdBy":2,"updatedBy":2,"createdAt":"2026-07-21T03:06:03.079Z","updatedAt":"2026-07-21T03:06:18.653Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+21-07-2026 08:36 AM : debug: Task updated successfully {"name":"sdvvsd","description":"sdgsd","due_date":"2026-07-20T00:00:00.000Z","notes":"Health","status":"Active","priority":"urgent","updatedBy":2}
+21-07-2026 08:36 AM : debug: Deleting task with externalId 
+21-07-2026 08:45 AM : info: Database connection & tables synchronized successfully.
+21-07-2026 08:45 AM : info: Server listening on port 4000
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@321"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@321"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@123"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:45 AM : info: Inside login controller
+21-07-2026 08:45 AM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@123"}
+21-07-2026 08:45 AM : info: Inside LoginRepository
+21-07-2026 08:45 AM : warn: Login failed: User not found for email bishal@gmail.com
+21-07-2026 08:46 AM : info: Inside Register controller
+21-07-2026 08:46 AM : debug: Got the request body for the api call
+21-07-2026 08:46 AM : debug: after mapping to the user request {"firstName":"Bishal","lastName":"Roy","mobNumber":"7735225495","email":"bishalupto@gamil.com","password":"Bishal@342"}
+21-07-2026 08:46 AM : info: Inside RegisterUsecase
+21-07-2026 08:46 AM : debug: User Created successfully: {"external_id":"xnimdfyqmb","first_name":"Bishal","last_name":"Roy","email":"bishalupto@gamil.com","mob_no":"7735225495","password":"$2b$10$Q9TjCGv0/KeqY9.FD3AfRu273fa3oU8D/ZRkC1rUy9OMcMsgbegIa","status":"Active"}
+21-07-2026 08:46 AM : debug: Getting all task successfully
+21-07-2026 08:46 AM : info: Got the task in controller :
+21-07-2026 08:46 AM : debug: Getting all task successfully
+21-07-2026 08:46 AM : info: Got the task in controller :
+21-07-2026 09:02 AM : info: Inside task create controller
+21-07-2026 09:02 AM : debug: after mapping to the task request {"userId":3,"name":"gsfdg","description":"gsd","due_date":"2026-07-21","notes":"Work","priority":"medium","status":"Active"}
+21-07-2026 09:02 AM : debug: Deleting task with externalId 
