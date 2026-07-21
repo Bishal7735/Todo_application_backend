@@ -2176,3 +2176,502 @@
 20-07-2026 11:56 AM : info: Token: 
 20-07-2026 11:56 AM : info: JWT SECRET: 
 20-07-2026 11:56 AM : debug: After deleting task with externalId 
+20-07-2026 12:02 PM : info: MySQL connection established successfully.
+20-07-2026 12:08 PM : info: MySQL connection established successfully.
+20-07-2026 12:12 PM : info: MySQL connection established successfully.
+20-07-2026 12:12 PM : info: MySQL connection established successfully.
+20-07-2026 12:12 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:12 PM : info: Server listening on port 4000
+20-07-2026 12:13 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:13 PM : info: Server listening on port 4000
+20-07-2026 12:13 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:13 PM : info: Server listening on port 4000
+20-07-2026 12:14 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:14 PM : info: Server listening on port 4000
+20-07-2026 12:14 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:14 PM : info: Server listening on port 4000
+20-07-2026 12:15 PM : info: Inside Register controller
+20-07-2026 12:15 PM : debug: Got the request body for the api call
+20-07-2026 12:15 PM : debug: after mapping to the user request {"firstName":"Test","lastName":"User","mobNumber":1234567890,"email":"test@example.com","password":"password123"}
+20-07-2026 12:15 PM : info: Inside RegisterUsecase
+20-07-2026 12:15 PM : debug: Email Id is already present: 
+20-07-2026 12:15 PM : info: Inside login controller
+20-07-2026 12:15 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:15 PM : info: Inside LoginRepository
+20-07-2026 12:15 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:15 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTkxNiwiZXhwIjoxNzg0NTI5OTc2fQ.r1mQNDwFn0qNeQHMtw0pGuEtjEoXQVGB4nkFChZ8Sac
+20-07-2026 12:15 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTkxNiwiZXhwIjoxNzg0NTMzNTE2fQ.23cvyJjsFS_uwjN-VblYPvTAvo5Gk4LxBajZrdf2myE
+20-07-2026 12:15 PM : info: Login successful
+20-07-2026 12:15 PM : info: Inside login controller
+20-07-2026 12:15 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:15 PM : info: Inside LoginRepository
+20-07-2026 12:15 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:15 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTkzMiwiZXhwIjoxNzg0NTI5OTkyfQ.vjNBgZSILiemTm8S3KcZg0s2Oz4gqwaCvzPM10xmGLw
+20-07-2026 12:15 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTkzMiwiZXhwIjoxNzg0NTMzNTMyfQ.zh-UgiY71xBYiethkhEzYF4g06KI8YxkYbQHvfLydn4
+20-07-2026 12:15 PM : info: Login successful
+20-07-2026 12:15 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:15 PM : info: Server listening on port 4000
+20-07-2026 12:15 PM : info: Inside login controller
+20-07-2026 12:15 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:15 PM : info: Inside LoginRepository
+20-07-2026 12:15 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:15 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTk1NiwiZXhwIjoxNzg0NTMwMDE2fQ.egdPNpIoDchILQE-rMqCsaV6EpPAYlhQ2xyH3OlMgxA
+20-07-2026 12:15 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTk1NiwiZXhwIjoxNzg0NTMzNTU2fQ.tXMqtJGZ7FgCF3lJCSSYt9UmFa5LeIo8AcbyaRy3C4g
+20-07-2026 12:15 PM : info: Login successful
+20-07-2026 12:16 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:16 PM : info: Server listening on port 4000
+20-07-2026 12:16 PM : info: Inside login controller
+20-07-2026 12:16 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:16 PM : info: Inside LoginRepository
+20-07-2026 12:16 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:16 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTk2NywiZXhwIjoxNzg0NTMwMDI3fQ.shlrR6inK_vJwq5oZPSSlurNCmRBppA5T-FdiEmLyeY
+20-07-2026 12:16 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTk2NywiZXhwIjoxNzg0NTMzNTY3fQ.Am81CeMCmXBthxvQA3JDL2gfs33HOLG_bMXsnu0wCoA
+20-07-2026 12:16 PM : info: Login successful
+20-07-2026 12:16 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:16 PM : info: Server listening on port 4000
+20-07-2026 12:16 PM : info: Inside login controller
+20-07-2026 12:16 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:16 PM : info: Inside LoginRepository
+20-07-2026 12:16 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:16 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTk5NCwiZXhwIjoxNzg0NTMwMDU0fQ.KkJydOR_o5L_EpsfWt1UgZoTaHVRLLwzODmHbTjWzqA
+20-07-2026 12:16 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUyOTk5NCwiZXhwIjoxNzg0NTMzNTk0fQ.rt451mgjdz3vNJVv_vgxiwrIIZhExx5h_DfLIRptypE
+20-07-2026 12:16 PM : info: Login successful
+20-07-2026 12:16 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:16 PM : info: Server listening on port 4000
+20-07-2026 12:17 PM : info: Inside login controller
+20-07-2026 12:17 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:17 PM : info: Inside LoginRepository
+20-07-2026 12:17 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:17 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUzMDAyMywiZXhwIjoxNzg0NTMwMDgzfQ._I7_OMQcDDiF27ot_h4V-s219g5oyg_oCJ6UGnFePHo
+20-07-2026 12:17 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoibmR2d3J2a2poZiIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUzMDAyMywiZXhwIjoxNzg0NTMzNjIzfQ.p402uDavhybiJnEcXgWNKMLX_NSWHyD-Eimeyaq3Y1g
+20-07-2026 12:17 PM : info: Login successful
+20-07-2026 12:17 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:17 PM : info: Server listening on port 4000
+20-07-2026 12:17 PM : info: Inside login controller
+20-07-2026 12:17 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:17 PM : info: Inside LoginRepository
+20-07-2026 12:18 PM : info: Inside Register controller
+20-07-2026 12:18 PM : debug: Got the request body for the api call
+20-07-2026 12:18 PM : debug: after mapping to the user request {"firstName":"Antigravity","lastName":"Tester","mobNumber":9999999999,"email":"test@example.com","password":"password123"}
+20-07-2026 12:18 PM : info: Inside RegisterUsecase
+20-07-2026 12:18 PM : debug: User Created successfully
+20-07-2026 12:18 PM : info: Inside login controller
+20-07-2026 12:18 PM : debug: after mapping to the user request {"email":"test@example.com","password":"password123"}
+20-07-2026 12:18 PM : info: Inside LoginRepository
+20-07-2026 12:18 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:18 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoid2t2bG5sc3J3YyIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUzMDA4MiwiZXhwIjoxNzg1MTM0ODgyfQ.wNQFX9HDIAkHQhFdyMUM0SlVmgPivcHXJv-yPlmTH2A
+20-07-2026 12:18 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoid2t2bG5sc3J3YyIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsImlhdCI6MTc4NDUzMDA4MiwiZXhwIjoxNzg3MTIyMDgyfQ.OUw2sveaDt64Pp0CLx6ZRu7NSRF6B5AHU1i6jEM80ts
+20-07-2026 12:18 PM : info: Login successful
+20-07-2026 12:18 PM : info: Inside task create controller
+20-07-2026 12:18 PM : debug: after mapping to the task request {"name":"Complete project documentation","description":"Write comprehensive docs","due_date":"2026-08-01","notes":"Work","priority":"high","status":"Active"}
+20-07-2026 12:18 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:18 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:18 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:18 PM : info: Server listening on port 4000
+20-07-2026 12:18 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:18 PM : info: Server listening on port 4000
+20-07-2026 12:19 PM : error: TokenExpiredError: jwt expired
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Codes\Todo App\Todo_application_backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Codes\Todo App\Todo_application_backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at jwtAuthMiddleware (C:\Codes\Todo App\Todo_application_backend\middleware\jwtAuthMiddleware.ts:30:25)
+    at Layer.handleRequest (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Codes\Todo App\Todo_application_backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\router\index.js:295:15 {"name":"TokenExpiredError","expiredAt":"2026-07-20T06:39:41.000Z"}
+20-07-2026 12:19 PM : error: TokenExpiredError: jwt expired
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Codes\Todo App\Todo_application_backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at Object.module.exports [as verify] (C:\Codes\Todo App\Todo_application_backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at jwtAuthMiddleware (C:\Codes\Todo App\Todo_application_backend\middleware\jwtAuthMiddleware.ts:30:25)
+    at Layer.handleRequest (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Codes\Todo App\Todo_application_backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Codes\Todo App\Todo_application_backend\node_modules\router\lib\layer.js:152:17)
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\router\index.js:295:15 {"name":"TokenExpiredError","expiredAt":"2026-07-20T06:39:41.000Z"}
+20-07-2026 12:19 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:19 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:19 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:19 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:19 PM : info: Inside task create controller
+20-07-2026 12:19 PM : debug: after mapping to the task request {"name":"fdfgvsdv","description":"svdvsv","due_date":"2026-07-21","notes":"Shopping","priority":"medium","status":"Active"}
+20-07-2026 12:19 PM : debug: Getting task details successfully {"dataValues":{"id":2,"external_id":"svibhfjlhu","name":"fdfgvsdv","description":"svdvsv","notes":"Shopping","category":"Shopping","due_date":"2026-07-21T00:00:00.000Z","status":"Active","priority":"medium","createdBy":null,"updatedBy":null,"createdAt":"2026-07-20T06:49:31.688Z","updatedAt":"2026-07-20T06:49:31.690Z"},"_previousDataValues":{"id":2,"external_id":"svibhfjlhu","name":"fdfgvsdv","description":"svdvsv","notes":"Shopping","category":"Shopping","due_date":"2026-07-21T00:00:00.000Z","status":"Active","priority":"medium","createdBy":null,"updatedBy":null,"createdAt":"2026-07-20T06:49:31.688Z","updatedAt":"2026-07-20T06:49:31.690Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+20-07-2026 12:19 PM : debug: Task updated successfully {"name":"fdfgvsdv","description":"svdvsv","due_date":"2026-07-21T00:00:00.000Z","notes":"Shopping","status":"Completed","priority":"medium"}
+20-07-2026 12:19 PM : debug: Deleting task with externalId 
+20-07-2026 12:20 PM : info: Inside login controller
+20-07-2026 12:20 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:20 PM : info: Inside LoginRepository
+20-07-2026 12:20 PM : info: Inside login controller
+20-07-2026 12:20 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:20 PM : info: Inside LoginRepository
+20-07-2026 12:20 PM : info: Inside login controller
+20-07-2026 12:20 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:20 PM : info: Inside LoginRepository
+20-07-2026 12:21 PM : info: Inside Register controller
+20-07-2026 12:21 PM : debug: Got the request body for the api call
+20-07-2026 12:21 PM : debug: after mapping to the user request {"firstName":"Admin","lastName":"","email":"admin@gmail.com","password":"Admin@ 5495"}
+20-07-2026 12:21 PM : info: Inside RegisterUsecase
+20-07-2026 12:21 PM : debug: User Created successfully
+20-07-2026 12:21 PM : info: Inside login controller
+20-07-2026 12:21 PM : debug: after mapping to the user request {"email":"admin@gmail.com","password":"Admin@5495"}
+20-07-2026 12:21 PM : info: Inside LoginRepository
+20-07-2026 12:21 PM : info: Inside login controller
+20-07-2026 12:21 PM : debug: after mapping to the user request {"email":"admin@gmail.com","password":"Admin@5495"}
+20-07-2026 12:21 PM : info: Inside LoginRepository
+20-07-2026 12:22 PM : info: Inside login controller
+20-07-2026 12:22 PM : debug: after mapping to the user request {"email":"admin@gmail.com","password":"Admin@5495"}
+20-07-2026 12:22 PM : info: Inside LoginRepository
+20-07-2026 12:24 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:24 PM : info: Server listening on port 4000
+20-07-2026 12:24 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:24 PM : info: Server listening on port 4000
+20-07-2026 12:24 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:24 PM : info: Server listening on port 4000
+20-07-2026 12:24 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:24 PM : info: Server listening on port 4000
+20-07-2026 12:25 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:25 PM : info: Server listening on port 4000
+20-07-2026 12:25 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:25 PM : info: Server listening on port 4000
+20-07-2026 12:26 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:26 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:26 PM : info: Server listening on port 4000
+20-07-2026 12:26 PM : info: Server listening on port 4000
+20-07-2026 12:27 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:27 PM : info: Server listening on port 4000
+20-07-2026 12:27 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:27 PM : info: Server listening on port 4000
+20-07-2026 12:28 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:28 PM : info: Server listening on port 4000
+20-07-2026 12:34 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:34 PM : info: Server listening on port 4000
+20-07-2026 12:35 PM : info: Inside login controller
+20-07-2026 12:35 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:35 PM : info: Inside LoginRepository
+20-07-2026 12:35 PM : warn: Login failed: User not found for email bishal@gmail.com
+20-07-2026 12:35 PM : info: Inside login controller
+20-07-2026 12:35 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:35 PM : info: Inside LoginRepository
+20-07-2026 12:35 PM : warn: Login failed: User not found for email bishal@gmail.com
+20-07-2026 12:35 PM : info: Inside login controller
+20-07-2026 12:35 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:35 PM : info: Inside LoginRepository
+20-07-2026 12:35 PM : warn: Login failed: User not found for email bishal@gmail.com
+20-07-2026 12:43 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:43 PM : info: Server listening on port 4000
+20-07-2026 12:43 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:43 PM : info: Server listening on port 4000
+20-07-2026 12:44 PM : info: Inside login controller
+20-07-2026 12:44 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:44 PM : info: Inside LoginRepository
+20-07-2026 12:44 PM : warn: Login failed: User not found for email bishal@gmail.com
+20-07-2026 12:44 PM : info: Inside login controller
+20-07-2026 12:44 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:44 PM : info: Inside LoginRepository
+20-07-2026 12:44 PM : warn: Login failed: User not found for email bishal@gmail.com
+20-07-2026 12:45 PM : info: Inside login controller
+20-07-2026 12:45 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:45 PM : info: Inside LoginRepository
+20-07-2026 12:45 PM : warn: Login failed: User not found for email bishal@gmail.com
+20-07-2026 12:46 PM : info: Inside login controller
+20-07-2026 12:46 PM : debug: after mapping to the user request {"email":"admin@gmail.com","password":"Admin@5495"}
+20-07-2026 12:46 PM : info: Inside LoginRepository
+20-07-2026 12:46 PM : warn: Login failed: Invalid password for email admin@gmail.com
+20-07-2026 12:47 PM : info: Inside Register controller
+20-07-2026 12:47 PM : debug: Got the request body for the api call
+20-07-2026 12:47 PM : debug: after mapping to the user request {"firstName":"jone","lastName":"deo","email":"jone@gmail.com","password":"jone$3545%"}
+20-07-2026 12:47 PM : info: Inside RegisterUsecase
+20-07-2026 12:47 PM : debug: User Created successfully: {"external_id":"pytitbxlkm","first_name":"jone","last_name":"deo","email":"jone@gmail.com","password":"$2b$10$ymdZp46Mf7n746s/oGtMceyYNP2ftqFv6H059NOKmALIPjua6O932","status":"Active"}
+20-07-2026 12:47 PM : info: Inside login controller
+20-07-2026 12:47 PM : debug: after mapping to the user request {"email":"jone@gmail.com","password":"jone$3545%"}
+20-07-2026 12:47 PM : info: Inside LoginRepository
+20-07-2026 12:47 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:47 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoicHl0aXRieGxrbSIsImVtYWlsIjoiam9uZUBnbWFpbC5jb20iLCJpYXQiOjE3ODQ1MzE4NDQsImV4cCI6MTc4NTEzNjY0NH0.sOmkgo0y2O0bIivolsp09au8s9IX3PYEhghOrCzs05E
+20-07-2026 12:47 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoicHl0aXRieGxrbSIsImVtYWlsIjoiam9uZUBnbWFpbC5jb20iLCJpYXQiOjE3ODQ1MzE4NDQsImV4cCI6MTc4NzEyMzg0NH0.Mo78mGW4bCP0JzdnANcdLfrmuIw0bpzpgHU38joA5Ow
+20-07-2026 12:47 PM : info: Login successful
+20-07-2026 12:47 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:47 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:47 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:47 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:47 PM : debug: Getting task details successfully {"dataValues":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdBy":null,"updatedBy":null,"createdAt":"2026-07-20T06:48:02.349Z","updatedAt":"2026-07-20T06:48:02.349Z"},"_previousDataValues":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Active","priority":"high","createdBy":null,"updatedBy":null,"createdAt":"2026-07-20T06:48:02.349Z","updatedAt":"2026-07-20T06:48:02.349Z"},"uniqno":1,"_changed":{},"_options":{"isNewRecord":false,"_schema":null,"_schemaDelimiter":"","raw":true,"attributes":["id","external_id","name","description","notes","category","due_date","status","priority","createdBy","updatedBy","createdAt","updatedAt"]},"isNewRecord":false}
+20-07-2026 12:47 PM : debug: Task updated successfully {"name":"Complete project documentation","description":"Write comprehensive docs","due_date":"2026-08-01T00:00:00.000Z","notes":"Work","status":"Completed","priority":"high"}
+20-07-2026 12:51 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 12:51 PM : info: Server listening on port 4000
+20-07-2026 12:51 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:51 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:51 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:51 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:51 PM : info: Inside Register controller
+20-07-2026 12:51 PM : debug: Got the request body for the api call
+20-07-2026 12:51 PM : debug: after mapping to the user request {"firstName":"Bishal","lastName":"Roy","email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:51 PM : info: Inside RegisterUsecase
+20-07-2026 12:51 PM : debug: User Created successfully: {"external_id":"wkgooulscz","first_name":"Bishal","last_name":"Roy","email":"bishal@gmail.com","password":"$2b$10$wCUu6uFz6BcDd0PakN9Z.uyswcNIZe5TF4/IYuxobjuPkOzxiXl4q","status":"Active"}
+20-07-2026 12:51 PM : info: Inside login controller
+20-07-2026 12:51 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:51 PM : info: Inside LoginRepository
+20-07-2026 12:51 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:51 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsImlhdCI6MTc4NDUzMjExOSwiZXhwIjoxNzg1MTM2OTE5fQ.H8Qo-vflu500vCqwdKK_nHR4M2SnQRwGhDSioccnwhw
+20-07-2026 12:51 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsImlhdCI6MTc4NDUzMjExOSwiZXhwIjoxNzg3MTI0MTE5fQ.123XqultUAzbK85JqkrH24CUHzqMlZ9LABaZux7seNw
+20-07-2026 12:51 PM : info: Login successful
+20-07-2026 12:52 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:52 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:52 PM : debug: Getting all task successfully {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:52 PM : info: Got the task in controller : {"0":{"id":1,"external_id":"mpugelwhxk","name":"Complete project documentation","description":"Write comprehensive docs","notes":"Work","category":"Work","due_date":"2026-08-01T00:00:00.000Z","status":"Completed","priority":"high","createdAt":"2026-07-20T06:48:02.349Z"}}
+20-07-2026 12:52 PM : debug: Deleting task with externalId 
+20-07-2026 12:52 PM : info: Inside task create controller
+20-07-2026 12:52 PM : debug: after mapping to the task request {"name":"fsgsdg","description":"sgddsg","due_date":"2026-07-20","notes":"Work","priority":"medium","status":"Active"}
+20-07-2026 12:54 PM : info: Inside Register controller
+20-07-2026 12:54 PM : debug: Got the request body for the api call
+20-07-2026 12:54 PM : debug: after mapping to the user request {"firstName":"Jhone","lastName":"Smith","email":"jonesmith@gmail.com","password":"Smith343"}
+20-07-2026 12:54 PM : info: Inside RegisterUsecase
+20-07-2026 12:54 PM : debug: User Created successfully: {"external_id":"xmvqtphtyh","first_name":"Jhone","last_name":"Smith","email":"jonesmith@gmail.com","password":"$2b$10$HPdHKmVaof1bSkh2H4OjWOGsHRTphuxjdbFb2mUsi2H4agGbTbqs2","status":"Active"}
+20-07-2026 12:56 PM : info: Inside Register controller
+20-07-2026 12:56 PM : debug: Got the request body for the api call
+20-07-2026 12:56 PM : debug: after mapping to the user request {"firstName":"Bishal","lastName":"Roy","email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:56 PM : info: Inside RegisterUsecase
+20-07-2026 12:56 PM : debug: Email Id is already present: 
+20-07-2026 12:56 PM : info: Inside login controller
+20-07-2026 12:56 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 12:56 PM : info: Inside LoginRepository
+20-07-2026 12:56 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:56 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsImlhdCI6MTc4NDUzMjM4NCwiZXhwIjoxNzg1MTM3MTg0fQ._psRoRC3tlVVrJQ_ySjAaFRvRICebE0bvg-e3FzdfG8
+20-07-2026 12:56 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsImlhdCI6MTc4NDUzMjM4NCwiZXhwIjoxNzg3MTI0Mzg0fQ.D7eaC9H21f4WJ1GzgJLci0y8Y0gFVHejEtV0_V9_cTk
+20-07-2026 12:56 PM : info: Login successful
+20-07-2026 12:56 PM : debug: Getting all task successfully {"0":{"id":3,"external_id":"jtpnppzgcu","name":"fsgsdg","description":"sgddsg","notes":"Work","category":"Work","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"medium","createdAt":"2026-07-20T07:22:43.608Z"}}
+20-07-2026 12:56 PM : info: Got the task in controller : {"0":{"id":3,"external_id":"jtpnppzgcu","name":"fsgsdg","description":"sgddsg","notes":"Work","category":"Work","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"medium","createdAt":"2026-07-20T07:22:43.608Z"}}
+20-07-2026 12:56 PM : debug: Getting all task successfully {"0":{"id":3,"external_id":"jtpnppzgcu","name":"fsgsdg","description":"sgddsg","notes":"Work","category":"Work","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"medium","createdAt":"2026-07-20T07:22:43.608Z"}}
+20-07-2026 12:56 PM : info: Got the task in controller : {"0":{"id":3,"external_id":"jtpnppzgcu","name":"fsgsdg","description":"sgddsg","notes":"Work","category":"Work","due_date":"2026-07-20T00:00:00.000Z","status":"Active","priority":"medium","createdAt":"2026-07-20T07:22:43.608Z"}}
+20-07-2026 12:57 PM : debug: Deleting task with externalId 
+20-07-2026 12:57 PM : info: Inside task create controller
+20-07-2026 12:57 PM : debug: after mapping to the task request {"name":"dodjsvsbjm","description":"csjnjcan","due_date":null,"notes":"Work","priority":"high","status":"Active"}
+20-07-2026 12:57 PM : info: Inside task create controller
+20-07-2026 12:57 PM : debug: after mapping to the task request {"name":"asjhcbjhc","description":"csacsjbnc","due_date":null,"notes":"Work","priority":"medium","status":"Active"}
+20-07-2026 12:58 PM : info: Inside Register controller
+20-07-2026 12:58 PM : debug: Got the request body for the api call
+20-07-2026 12:58 PM : debug: after mapping to the user request {"firstName":"Modi","lastName":"Ji","email":"modi@gamil.com","password":"Media@321"}
+20-07-2026 12:58 PM : info: Inside RegisterUsecase
+20-07-2026 12:58 PM : debug: User Created successfully: {"external_id":"dcnwmfzsoo","first_name":"Modi","last_name":"Ji","email":"modi@gamil.com","password":"$2b$10$MIgbxHNhwDZrbjXvyxL7meRtYuP7j6DYUilP0lt84nphkZFiOHnQa","status":"Active"}
+20-07-2026 12:58 PM : info: Inside login controller
+20-07-2026 12:58 PM : debug: after mapping to the user request {"email":"modi@gamil.com","password":"media@321"}
+20-07-2026 12:58 PM : info: Inside LoginRepository
+20-07-2026 12:58 PM : warn: Login failed: Invalid password for email modi@gamil.com
+20-07-2026 12:59 PM : info: Inside login controller
+20-07-2026 12:59 PM : debug: after mapping to the user request {"email":"modi@gamil.com","password":"meadi@321"}
+20-07-2026 12:59 PM : info: Inside LoginRepository
+20-07-2026 12:59 PM : warn: Login failed: Invalid password for email modi@gamil.com
+20-07-2026 12:59 PM : info: Inside login controller
+20-07-2026 12:59 PM : debug: after mapping to the user request {"email":"modi@gamil.com","password":"medai@321"}
+20-07-2026 12:59 PM : info: Inside LoginRepository
+20-07-2026 12:59 PM : warn: Login failed: Invalid password for email modi@gamil.com
+20-07-2026 12:59 PM : info: Inside login controller
+20-07-2026 12:59 PM : debug: after mapping to the user request {"email":"modi@gamil.com","password":"media@321"}
+20-07-2026 12:59 PM : info: Inside LoginRepository
+20-07-2026 12:59 PM : warn: Login failed: Invalid password for email modi@gamil.com
+20-07-2026 12:59 PM : info: Inside Register controller
+20-07-2026 12:59 PM : debug: Got the request body for the api call
+20-07-2026 12:59 PM : debug: after mapping to the user request {"firstName":"Modi","lastName":"Ji","email":"modiv@gamil.com","password":"Medias@098"}
+20-07-2026 12:59 PM : info: Inside RegisterUsecase
+20-07-2026 12:59 PM : debug: User Created successfully: {"external_id":"kzxckddlgw","first_name":"Modi","last_name":"Ji","email":"modiv@gamil.com","password":"$2b$10$9cBX0dpOm/35eTbcgPMp5eCPvKuMky/rIZDuln5uTF.tWIJ4DOQbC","status":"Active"}
+20-07-2026 12:59 PM : info: Inside login controller
+20-07-2026 12:59 PM : debug: after mapping to the user request {"email":"modiv@gamil.com","password":"Medias@098"}
+20-07-2026 12:59 PM : info: Inside LoginRepository
+20-07-2026 12:59 PM : info: ACCESSTOKENSECRET
+20-07-2026 12:59 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoia3p4Y2tkZGxndyIsImVtYWlsIjoibW9kaXZAZ2FtaWwuY29tIiwiaWF0IjoxNzg0NTMyNTk3LCJleHAiOjE3ODUxMzczOTd9.gOKg7M_PbF_VgZrcQx0mhEAW1hoabnvkbDEQHkOQ8EE
+20-07-2026 12:59 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHRlcm5hbElkIjoia3p4Y2tkZGxndyIsImVtYWlsIjoibW9kaXZAZ2FtaWwuY29tIiwiaWF0IjoxNzg0NTMyNTk3LCJleHAiOjE3ODcxMjQ1OTd9.7a8Lm77B8iOa1dV1vUpcjJyGL7thqRV0StGvOw-f89E
+20-07-2026 12:59 PM : info: Login successful
+20-07-2026 12:59 PM : debug: Getting all task successfully {"0":{"id":5,"external_id":"ulgmklobwk","name":"asjhcbjhc","description":"csacsjbnc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdAt":"2026-07-20T07:27:47.701Z"},"1":{"id":4,"external_id":"ipsvsawywa","name":"dodjsvsbjm","description":"csjnjcan","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"high","createdAt":"2026-07-20T07:27:39.747Z"}}
+20-07-2026 12:59 PM : info: Got the task in controller : {"0":{"id":5,"external_id":"ulgmklobwk","name":"asjhcbjhc","description":"csacsjbnc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdAt":"2026-07-20T07:27:47.701Z"},"1":{"id":4,"external_id":"ipsvsawywa","name":"dodjsvsbjm","description":"csjnjcan","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"high","createdAt":"2026-07-20T07:27:39.747Z"}}
+20-07-2026 12:59 PM : debug: Getting all task successfully {"0":{"id":5,"external_id":"ulgmklobwk","name":"asjhcbjhc","description":"csacsjbnc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdAt":"2026-07-20T07:27:47.701Z"},"1":{"id":4,"external_id":"ipsvsawywa","name":"dodjsvsbjm","description":"csjnjcan","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"high","createdAt":"2026-07-20T07:27:39.747Z"}}
+20-07-2026 12:59 PM : info: Got the task in controller : {"0":{"id":5,"external_id":"ulgmklobwk","name":"asjhcbjhc","description":"csacsjbnc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdAt":"2026-07-20T07:27:47.701Z"},"1":{"id":4,"external_id":"ipsvsawywa","name":"dodjsvsbjm","description":"csjnjcan","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"high","createdAt":"2026-07-20T07:27:39.747Z"}}
+20-07-2026 01:07 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:07 PM : info: Server listening on port 4000
+20-07-2026 01:08 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:08 PM : info: Server listening on port 4000
+20-07-2026 01:08 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:08 PM : info: Server listening on port 4000
+20-07-2026 01:08 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:08 PM : info: Server listening on port 4000
+20-07-2026 01:08 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:08 PM : info: Server listening on port 4000
+20-07-2026 01:09 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:09 PM : info: Server listening on port 4000
+20-07-2026 01:09 PM : info: Database connection & tables synchronized successfully.
+20-07-2026 01:09 PM : info: Server listening on port 4000
+20-07-2026 01:09 PM : debug: Getting all task successfully
+20-07-2026 01:09 PM : info: Got the task in controller :
+20-07-2026 01:10 PM : debug: Getting all task successfully
+20-07-2026 01:10 PM : info: Got the task in controller :
+20-07-2026 01:12 PM : info: Inside Register controller
+20-07-2026 01:12 PM : debug: Got the request body for the api call
+20-07-2026 01:12 PM : debug: after mapping to the user request {"firstName":"Alice","lastName":"Test","email":"testuser1_1784533341957@example.com","password":"Password123!"}
+20-07-2026 01:12 PM : info: Inside RegisterUsecase
+20-07-2026 01:12 PM : debug: User Created successfully: {"external_id":"hqgwaszfzw","first_name":"Alice","last_name":"Test","email":"testuser1_1784533341957@example.com","password":"$2b$10$fKXhMCXmwTp6yvAH.hI7zOPpPKMGnm3KPYzS8DudiBc9MJH/5mzu.","status":"Active"}
+20-07-2026 01:12 PM : info: Inside login controller
+20-07-2026 01:12 PM : debug: after mapping to the user request {"email":"testuser1_1784533341957@example.com","password":"Password123!"}
+20-07-2026 01:12 PM : info: Inside LoginRepository
+20-07-2026 01:12 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:12 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcklkIjo4LCJleHRlcm5hbElkIjoiaHFnd2FzemZ6dyIsImVtYWlsIjoidGVzdHVzZXIxXzE3ODQ1MzMzNDE5NTdAZXhhbXBsZS5jb20iLCJuYW1lIjoiQWxpY2UgVGVzdCIsImlhdCI6MTc4NDUzMzM0MiwiZXhwIjoxNzg1MTM4MTQyfQ.RDj3HII_litF2NAc55KVreaeN7NV51KL7-mp98qAmMY
+20-07-2026 01:12 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcklkIjo4LCJleHRlcm5hbElkIjoiaHFnd2FzemZ6dyIsImVtYWlsIjoidGVzdHVzZXIxXzE3ODQ1MzMzNDE5NTdAZXhhbXBsZS5jb20iLCJuYW1lIjoiQWxpY2UgVGVzdCIsImlhdCI6MTc4NDUzMzM0MiwiZXhwIjoxNzg3MTI1MzQyfQ.y_6mJTB9Up_SzIVICb0Or6whtaQ3nqeAGYLq-7hjx2I
+20-07-2026 01:12 PM : info: Login successful
+20-07-2026 01:12 PM : info: Inside Register controller
+20-07-2026 01:12 PM : debug: Got the request body for the api call
+20-07-2026 01:12 PM : debug: after mapping to the user request {"firstName":"Bob","lastName":"Test","email":"testuser2_1784533341957@example.com","password":"Password123!"}
+20-07-2026 01:12 PM : info: Inside RegisterUsecase
+20-07-2026 01:12 PM : debug: User Created successfully: {"external_id":"qsbizxozrm","first_name":"Bob","last_name":"Test","email":"testuser2_1784533341957@example.com","password":"$2b$10$9ANkx8suBqivSsdMBMdTMOLrorPLALQjRy09APJBBrSFVTlA2c1ry","status":"Active"}
+20-07-2026 01:12 PM : info: Inside login controller
+20-07-2026 01:12 PM : debug: after mapping to the user request {"email":"testuser2_1784533341957@example.com","password":"Password123!"}
+20-07-2026 01:12 PM : info: Inside LoginRepository
+20-07-2026 01:12 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:12 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidXNlcklkIjo5LCJleHRlcm5hbElkIjoicXNiaXp4b3pybSIsImVtYWlsIjoidGVzdHVzZXIyXzE3ODQ1MzMzNDE5NTdAZXhhbXBsZS5jb20iLCJuYW1lIjoiQm9iIFRlc3QiLCJpYXQiOjE3ODQ1MzMzNDIsImV4cCI6MTc4NTEzODE0Mn0.ofmEp9OvTHpFWGQssUbefbpWUzhC-ZMBhZlqGKH1geo
+20-07-2026 01:12 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OSwidXNlcklkIjo5LCJleHRlcm5hbElkIjoicXNiaXp4b3pybSIsImVtYWlsIjoidGVzdHVzZXIyXzE3ODQ1MzMzNDE5NTdAZXhhbXBsZS5jb20iLCJuYW1lIjoiQm9iIFRlc3QiLCJpYXQiOjE3ODQ1MzMzNDIsImV4cCI6MTc4NzEyNTM0Mn0.IJvteBb9wdT38KRygg_KmjL7A_TvQPoADtIhzqoPtoc
+20-07-2026 01:12 PM : info: Login successful
+20-07-2026 01:12 PM : info: Inside task create controller
+20-07-2026 01:12 PM : debug: after mapping to the task request {"userId":8,"name":"Alice's Secret Task","description":"Personal to Alice","due_date":null,"notes":"Work","priority":"high","status":"Active"}
+20-07-2026 01:12 PM : debug: Getting all task successfully {"0":{"id":6,"external_id":"ipgtcbxgej","name":"Alice's Secret Task","description":"Personal to Alice","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"high","createdBy":8,"createdAt":"2026-07-20T07:42:22.407Z"}}
+20-07-2026 01:12 PM : info: Got the task in controller : {"0":{"id":6,"external_id":"ipgtcbxgej","name":"Alice's Secret Task","description":"Personal to Alice","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"high","createdBy":8,"createdAt":"2026-07-20T07:42:22.407Z"}}
+20-07-2026 01:12 PM : debug: Getting all task successfully
+20-07-2026 01:12 PM : info: Got the task in controller :
+20-07-2026 01:12 PM : debug: Deleting task with externalId 
+20-07-2026 01:12 PM : debug: Deleting task with externalId 
+20-07-2026 01:17 PM : debug: Getting all task successfully
+20-07-2026 01:17 PM : info: Got the task in controller :
+20-07-2026 01:17 PM : debug: Getting all task successfully
+20-07-2026 01:17 PM : info: Got the task in controller :
+20-07-2026 01:18 PM : info: Inside task create controller
+20-07-2026 01:18 PM : debug: after mapping to the task request {"userId":7,"name":"yhgvvfyy","description":"bnjk","due_date":null,"notes":"Work","priority":"medium","status":"Active"}
+20-07-2026 01:18 PM : info: Inside login controller
+20-07-2026 01:18 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 01:18 PM : info: Inside LoginRepository
+20-07-2026 01:18 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:18 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTMzNzEyLCJleHAiOjE3ODUxMzg1MTJ9.nKROEAxB8CQ0w3RlRXmURxCDliAHw-Qqg6iWJj4P0C8
+20-07-2026 01:18 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTMzNzEyLCJleHAiOjE3ODcxMjU3MTJ9.rYPI7kga8Mio2445qGmMYZdYjk-l9rAZEe1q9TD2Bgk
+20-07-2026 01:18 PM : info: Login successful
+20-07-2026 01:18 PM : debug: Getting all task successfully
+20-07-2026 01:18 PM : info: Got the task in controller :
+20-07-2026 01:18 PM : debug: Getting all task successfully
+20-07-2026 01:18 PM : info: Got the task in controller :
+20-07-2026 01:18 PM : info: Inside task create controller
+20-07-2026 01:18 PM : debug: after mapping to the task request {"userId":4,"name":"vfghgvftyc","description":"vgvygvc","due_date":null,"notes":"Work","priority":"medium","status":"Active"}
+20-07-2026 01:28 PM : info: Inside login controller
+20-07-2026 01:28 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 01:28 PM : info: Inside LoginRepository
+20-07-2026 01:28 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:28 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTM0MzA0LCJleHAiOjE3ODUxMzkxMDR9.vUDV2x5ORM6NQp5R5QkzXfsEs15CmNB_QavwhPpykek
+20-07-2026 01:28 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTM0MzA0LCJleHAiOjE3ODcxMjYzMDR9.kJEeNcrJIGNun7pr471MyfYGdALamr0_ko-LvPYUiJs
+20-07-2026 01:28 PM : info: Login successful
+20-07-2026 01:28 PM : debug: Getting all task successfully {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:28 PM : info: Got the task in controller : {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:28 PM : debug: Getting all task successfully {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:28 PM : info: Got the task in controller : {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:28 PM : info: Inside login controller
+20-07-2026 01:28 PM : debug: after mapping to the user request {"email":"modiv@gmail.com","password":"Medias@098"}
+20-07-2026 01:28 PM : info: Inside LoginRepository
+20-07-2026 01:28 PM : warn: Login failed: User not found for email modiv@gmail.com
+20-07-2026 01:28 PM : info: Inside login controller
+20-07-2026 01:28 PM : debug: after mapping to the user request {"email":"modiv@gmail.com","password":"Medias@098"}
+20-07-2026 01:28 PM : info: Inside LoginRepository
+20-07-2026 01:28 PM : warn: Login failed: User not found for email modiv@gmail.com
+20-07-2026 01:29 PM : info: Inside login controller
+20-07-2026 01:29 PM : debug: after mapping to the user request {"email":"modi@gmail.com","password":"Medias@098"}
+20-07-2026 01:29 PM : info: Inside LoginRepository
+20-07-2026 01:29 PM : warn: Login failed: User not found for email modi@gmail.com
+20-07-2026 01:30 PM : info: Inside Register controller
+20-07-2026 01:30 PM : debug: Got the request body for the api call
+20-07-2026 01:30 PM : debug: after mapping to the user request {"firstName":"modi","lastName":"ji","email":"modi@gmail.com","password":"Medias@098"}
+20-07-2026 01:30 PM : info: Inside RegisterUsecase
+20-07-2026 01:30 PM : debug: User Created successfully: {"external_id":"eeohehxoew","first_name":"modi","last_name":"ji","email":"modi@gmail.com","password":"$2b$10$Q.5TFqWL0/nMS42Ev2y7wuXlquAplk3N2tFozdL5B80CrQy8wop9C","status":"Active"}
+20-07-2026 01:30 PM : info: Inside login controller
+20-07-2026 01:30 PM : debug: after mapping to the user request {"email":"modi@gmail.com","password":"Medias@098"}
+20-07-2026 01:30 PM : info: Inside LoginRepository
+20-07-2026 01:30 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:30 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsInVzZXJJZCI6MTAsImV4dGVybmFsSWQiOiJlZW9oZWh4b2V3IiwiZW1haWwiOiJtb2RpQGdtYWlsLmNvbSIsIm5hbWUiOiJtb2RpIGppIiwiaWF0IjoxNzg0NTM0NDA5LCJleHAiOjE3ODUxMzkyMDl9.TXzvGn-G0QxBq4oWC_9G9Sb6WgjZYzpJUbUBNyRE7Sk
+20-07-2026 01:30 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsInVzZXJJZCI6MTAsImV4dGVybmFsSWQiOiJlZW9oZWh4b2V3IiwiZW1haWwiOiJtb2RpQGdtYWlsLmNvbSIsIm5hbWUiOiJtb2RpIGppIiwiaWF0IjoxNzg0NTM0NDA5LCJleHAiOjE3ODcxMjY0MDl9.39p3HFOykyA1W5ioTBnhcPJhghfadMmdZAVlV1V5ikw
+20-07-2026 01:30 PM : info: Login successful
+20-07-2026 01:30 PM : debug: Getting all task successfully
+20-07-2026 01:30 PM : info: Got the task in controller :
+20-07-2026 01:30 PM : debug: Getting all task successfully
+20-07-2026 01:30 PM : info: Got the task in controller :
+20-07-2026 01:31 PM : debug: Getting all task successfully
+20-07-2026 01:31 PM : info: Got the task in controller :
+20-07-2026 01:32 PM : debug: Getting all task successfully
+20-07-2026 01:32 PM : info: Got the task in controller :
+20-07-2026 01:32 PM : debug: Getting all task successfully
+20-07-2026 01:32 PM : info: Got the task in controller :
+20-07-2026 01:32 PM : info: Inside login controller
+20-07-2026 01:32 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 01:32 PM : info: Inside LoginRepository
+20-07-2026 01:32 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:32 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTM0NTcwLCJleHAiOjE3ODUxMzkzNzB9.NuFFyS9R-IB1ETkuIvWmFSr-INGUMkcV_0W0OPImGvs
+20-07-2026 01:32 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTM0NTcwLCJleHAiOjE3ODcxMjY1NzB9.Wb1ekZ_UbifVrnF1lFMiFt65X7REm1h0xh7GfshhA3c
+20-07-2026 01:32 PM : info: Login successful
+20-07-2026 01:32 PM : debug: Getting all task successfully {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:32 PM : info: Got the task in controller : {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:32 PM : debug: Getting all task successfully {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:32 PM : info: Got the task in controller : {"0":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:32 PM : info: Inside task create controller
+20-07-2026 01:32 PM : debug: after mapping to the task request {"userId":4,"name":"98uyhjn","description":"","due_date":null,"notes":"Work","priority":"medium","status":"Active"}
+20-07-2026 01:33 PM : info: Inside login controller
+20-07-2026 01:33 PM : debug: after mapping to the user request {"email":"modi@gmail.com","password":"no need of this if somthig needed sift it to api and set the paths"}
+20-07-2026 01:33 PM : info: Inside LoginRepository
+20-07-2026 01:33 PM : warn: Login failed: Invalid password for email modi@gmail.com
+20-07-2026 01:33 PM : info: Inside login controller
+20-07-2026 01:33 PM : debug: after mapping to the user request {"email":"modi@gmail.com","password":"Medias@098"}
+20-07-2026 01:33 PM : info: Inside LoginRepository
+20-07-2026 01:33 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:33 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsInVzZXJJZCI6MTAsImV4dGVybmFsSWQiOiJlZW9oZWh4b2V3IiwiZW1haWwiOiJtb2RpQGdtYWlsLmNvbSIsIm5hbWUiOiJtb2RpIGppIiwiaWF0IjoxNzg0NTM0NjExLCJleHAiOjE3ODUxMzk0MTF9.iNtN7_W0wZiKAoYigABW8Ryfbz17XKHWulV9jJZit58
+20-07-2026 01:33 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsInVzZXJJZCI6MTAsImV4dGVybmFsSWQiOiJlZW9oZWh4b2V3IiwiZW1haWwiOiJtb2RpQGdtYWlsLmNvbSIsIm5hbWUiOiJtb2RpIGppIiwiaWF0IjoxNzg0NTM0NjExLCJleHAiOjE3ODcxMjY2MTF9.OdrT8BqzSlCKGB6WDWNc5aBAZbd2j1RNlMH8oEVGhdA
+20-07-2026 01:33 PM : info: Login successful
+20-07-2026 01:33 PM : debug: Getting all task successfully
+20-07-2026 01:33 PM : info: Got the task in controller :
+20-07-2026 01:33 PM : debug: Getting all task successfully
+20-07-2026 01:33 PM : info: Got the task in controller :
+20-07-2026 01:57 PM : error: Error
+    at Database.<anonymous> (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query.js:236:27)
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:12)
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\sequelize.js:650:28
+    at async SQLiteQueryInterface.changeColumn (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:48:40)
+    at async user.sync (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeForeignKeyConstraintError","parent":{"errno":19,"code":"SQLITE_CONSTRAINT","sql":"DROP TABLE `user`;"},"original":{"errno":19,"code":"SQLITE_CONSTRAINT","sql":"DROP TABLE `user`;"},"sql":"DROP TABLE `user`;","parameters":{}}
+20-07-2026 01:57 PM : info: Server listening on port 4000
+20-07-2026 01:58 PM : info: Inside login controller
+20-07-2026 01:58 PM : debug: after mapping to the user request {"email":"bishal@gmail.com","password":"Bishal@342"}
+20-07-2026 01:58 PM : info: Inside LoginRepository
+20-07-2026 01:58 PM : info: ACCESSTOKENSECRET
+20-07-2026 01:58 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTM2MTM3LCJleHAiOjE3ODUxNDA5Mzd9.5_IDxHPe5bmruvzO2-X9hsb7Z0WN_foj84lPApdQCuk
+20-07-2026 01:58 PM : info: Token created successfully eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwidXNlcklkIjo0LCJleHRlcm5hbElkIjoid2tnb291bHNjeiIsImVtYWlsIjoiYmlzaGFsQGdtYWlsLmNvbSIsIm5hbWUiOiJCaXNoYWwgUm95IiwiaWF0IjoxNzg0NTM2MTM3LCJleHAiOjE3ODcxMjgxMzd9.JYiQ47qXE2lW4hSQZBDHddLRWaJL7W3LX-YDxEc2So8
+20-07-2026 01:58 PM : info: Login successful
+20-07-2026 01:58 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:58 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:58 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 01:58 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:02 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:02 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:02 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:02 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:05 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:05 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:05 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:05 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:09 PM : error: Error
+    at Database.<anonymous> (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query.js:236:27)
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:50
+    at new Promise (<anonymous>)
+    at Query.run (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query.js:234:12)
+    at C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\sequelize.js:650:28
+    at async SQLiteQueryInterface.changeColumn (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\dialects\sqlite\query-interface.js:48:40)
+    at async user.sync (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\model.js:1408:11)
+    at async Sequelize.sync (C:\Codes\Todo App\Todo_application_backend\node_modules\sequelize\src\sequelize.js:825:9) {"name":"SequelizeUniqueConstraintError","errors":[{"message":"id must be unique","type":"unique violation","path":"id","value":null,"origin":"DB","instance":null,"validatorKey":"not_unique","validatorName":null,"validatorArgs":[]}],"parent":{"errno":19,"code":"SQLITE_CONSTRAINT","sql":"INSERT INTO `user_backup` SELECT `id`, `external_id`, `first_name`, `last_name`, `email`, `mob_no`, `status`, `password`, `createdAt`, `updatedAt` FROM `user`;"},"original":{"errno":19,"code":"SQLITE_CONSTRAINT","sql":"INSERT INTO `user_backup` SELECT `id`, `external_id`, `first_name`, `last_name`, `email`, `mob_no`, `status`, `password`, `createdAt`, `updatedAt` FROM `user`;"},"fields":["id"],"sql":"INSERT INTO `user_backup` SELECT `id`, `external_id`, `first_name`, `last_name`, `email`, `mob_no`, `status`, `password`, `createdAt`, `updatedAt` FROM `user`;"}
+20-07-2026 02:09 PM : info: Server listening on port 4000
+20-07-2026 02:14 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:14 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:14 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:14 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:16 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:16 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:16 PM : debug: Getting all task successfully {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}
+20-07-2026 02:16 PM : info: Got the task in controller : {"0":{"id":8,"external_id":"kfslaagbky","name":"98uyhjn","description":"","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T08:02:58.206Z"},"1":{"id":7,"external_id":"juacwjgkzh","name":"vfghgvftyc","description":"vgvygvc","notes":"Work","category":"Work","due_date":null,"status":"Active","priority":"medium","createdBy":4,"createdAt":"2026-07-20T07:48:50.199Z"}}

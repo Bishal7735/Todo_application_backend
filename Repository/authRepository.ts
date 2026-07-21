@@ -1,4 +1,4 @@
-import { LoginRequest, RegistrationRequest } from "../Domain/authDomain";
+import { LoginRequest, RegistrationRequest } from "../domain/authDomain";
 import logger from "../logger";
 import { User } from "../models";
 import bcrypt from "bcrypt";
@@ -6,18 +6,23 @@ import bcrypt from "bcrypt";
 
 export async function LoginRepository(request: LoginRequest) {
     logger.info("Inside LoginRepository");
+    const normalizedEmail = (request.email || "").trim().toLowerCase();
 
     const user:any = await User.findOne({
-        where: { email: request.email },
+        where: { email: normalizedEmail },
     });
 
-    if (!user) return "";
+    if (!user) {
+        logger.warn("Login failed: User not found for email " + normalizedEmail);
+        return "";
+    }
 
     const isMatch = await bcrypt.compare(request.password, user.password);
     if (isMatch){
         return user;
-    }else {
-        return "" ;
+    } else {
+        logger.warn("Login failed: Invalid password for email " + normalizedEmail);
+        return "";
     }
 }
 
@@ -36,22 +41,23 @@ export async function RegisterRepository(request: RegistrationRequest) {
         external_id: externalId,
         first_name: request.firstName,
         last_name: request.lastName,
-        email: request.email,
+        email: (request.email || "").trim().toLowerCase(),
         mob_no: request.mobNumber,
         password: request.password,
         status: "Active",
     }
 
     // Table insert
-    await User.create(userObject);
-    logger.debug("User Created successfully", + userObject);
-    return true;
+    const createdUser: any = await User.create(userObject);
+    logger.debug("User Created successfully: " + JSON.stringify(userObject));
+    return createdUser;
 }
 
 export async function EmailCheck(email: string) {
+    const normalizedEmail = (email || "").trim().toLowerCase();
     const users = await User.findAll({
         where: {
-            email: email,
+            email: normalizedEmail,
         },
     });
     if (users.length > 0) {

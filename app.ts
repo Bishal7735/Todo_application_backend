@@ -3,39 +3,41 @@ dotenv.config();
 import express, { Application } from "express";
 import { router } from "./route/index";
 import { sequelize } from "./models";
+import { initDb } from "./models/db";
 import logger from "./logger";
+import cors from 'cors';
+
 const app: Application = express();
-const port: number = 4000;
+const port: number = Number(process.env.PORT) || 4000;
 
 // Middleware
-import cors from 'cors';
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: true,
+    credentials: true
 }));
 
 // Routes
 app.use("/", router);  //router - API path
 
-
-// Database connection
+// Database connection and server initialization
 const startServer = async (): Promise<void> => {
     try {
-        await sequelize.authenticate();
-        console.log("MySQL connection established successfully.");
-        logger.info("MySQL connection established successfully.");
-
-        await sequelize.sync({ alter: false });
-
-        app.listen(port, () => {
-            console.log(`Server listening on port ${port}`);
-        });
+        await initDb();
+        await sequelize.sync({ alter: true });
+        console.log("Database connection & tables synchronized successfully.");
+        logger.info("Database connection & tables synchronized successfully.");
     } catch (error) {
-        console.error("Unable to connect to database:", error);
-        logger.error("Unable to connect to database:", error);
+        console.error("Database connection/sync error:", error);
+        logger.error("Database connection/sync error:", error);
     }
+
+    app.listen(port, () => {
+        console.log(`Server listening on port ${port}`);
+        logger.info(`Server listening on port ${port}`);
+    });
 };
 
-startServer();
+startServer();
