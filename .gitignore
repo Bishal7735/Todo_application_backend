@@ -1,6 +1,6 @@
 node_modules/
 package-lock.json
 .env
-
-logs/
 app.log
+./logs/*
+*.log
